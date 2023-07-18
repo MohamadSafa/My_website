@@ -81,6 +81,64 @@
     </fieldset>
 </form>
 &nbsp;
+<h1>Registration Form</h1>
+<form method="get" action="process.php">
+    <fieldset>
+        <legend>Step 1: Personal Information</legend>
+        <p>
+            <label>Name:</label>
+            <input type="text" name="Title" />
+        </p>
+        <p>
+            <label>Gender:</label>
+            <select name="Gender type">
+                <option>Select</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>prefer not to disclose</option>
+            </select>
+        </p>
+        <p>
+            <label>Interests:</label><br>
+            <input type="checkbox" id="Interest 1" name="Interest 2" value="Reading">
+            <label for="Interest 1">Reading</label><br>
+            <input type="checkbox" id="Interest 2" name="Interest 2" value="Sports">
+            <label for="Interest 2">Sports</label><br>
+            <input type="checkbox" id="Interest 3" name="Interest 3" value="Travel">
+            <label for="Interest 3">Travel</label><br>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Step 2 : Account Information</legend>
+        <p>
+            <label>Username :</label>
+            <input type="text" name="Username" />
+        </p>
+        <p>
+            <label>Password :</label>
+            <input type="password">
+        </p>
+        <p>
+            <label>Country :</label>
+            <select name="where">
+                <option>Select</option>
+                <option>Lebanon</option>
+                <option>United Arab Emirates</option>
+                <option>United Kingdom</option>
+                <option>United States</option>
+            </select>
+        </p>
+        <p>
+            <label>Preferred Language:</label><br>
+            <input type="checkbox" id="Language 1" name="Language 1" value="English">
+            <label for="Language 1">English</label><br>
+            <input type="checkbox" id="Language 2" name="Language 2" value="Spanish">
+            <label for="Language 2">Spanish</label><br>
+        </p>
+    </fieldset>
+    <input type="submit" />
+</form>
+&nbsp;
 <footer>Copy rights 2023. All rights reserved</footer>
 </body>
 </html>
